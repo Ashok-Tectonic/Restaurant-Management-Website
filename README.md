@@ -1,6 +1,11 @@
 # Restaurant-Management-Website
 A full-stack Restaurant Management Website built using HTML, CSS, JavaScript, Node.js, and MySQL. It allows users to browse menus, book tables, and order food online, while the backend securely handles bookings and orders. Designed for smooth interaction and efficient restaurant operations.
 <img width="1913" height="771" alt="Screenshot 2025-11-10 121846" src="https://github.com/user-attachments/assets/69441e79-4aba-4998-a422-20f9e838c193" />
+<img width="1899" height="853" alt="Screenshot 2025-11-10 121913" src="https://github.com/user-attachments/assets/72171e20-6ff5-48a0-a7cd-74cf1364ef28" />
+<img width="1844" height="801" alt="Screenshot 2025-11-10 121933" src="https://github.com/user-attachments/assets/46ea47cb-3b3e-485f-b776-c88bcebfc102" />
+<img width="1821" height="848" alt="Screenshot 2025-11-10 121950" src="https://github.com/user-attachments/assets/23eb3c6b-f506-4686-aceb-3bf72da33805" />
+
+
 
 🍛 Restaurant Management Website – Biryani Delight
 📖 Overview
@@ -26,33 +31,17 @@ This project demonstrates seamless frontend–backend–database integration, pr
 ⚙️ API-based architecture using Express.js
 
 🛠️ Technologies Used
-Frontend
+Frontend : HTML5
 
-HTML5
+CSS3 : JavaScript (ES6)
 
-CSS3
+Backend : Node.js (v18.x or later) , Express.js (v4.x)
 
-JavaScript (ES6)
+Database : MySQL (v8.x)
 
-Backend
+Other Tools : Visual Studio Code , Postman (for API testing)
 
-Node.js (v18.x or later)
-
-Express.js (v4.x)
-
-Database
-
-MySQL (v8.x)
-
-Other Tools
-
-Visual Studio Code
-
-Postman (for API testing)
-
-Git & GitHub
-
-npm (Node Package Manager)
+Git & GitHub : npm (Node Package Manager)
 
 ⚙️ Installation & Setup
 
@@ -116,10 +105,14 @@ id	INT (Primary Key)	Auto-increment order ID
 customer_name	VARCHAR(255)	Name of the customer
 item	VARCHAR(255)	Ordered item
 quantity	INT	Quantity ordered
+
+
 🌐 API Endpoints
 Method	Endpoint	Description
 POST	/api/book	Create a new table booking
 POST	/api/order	Place a new food order
+
+
 💡 Future Enhancements
 
 🔐 Admin panel for menu, orders, and booking management
